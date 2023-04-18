@@ -35,7 +35,7 @@ class Game
     player_answer = gets.chomp.to_i
     
 
-    if check_answer(player_answer, answer) # if true
+    if check_answer(player_answer, answer)
       puts "That is correct."
 
       @current_player.increase_wins
