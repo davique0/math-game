@@ -1,5 +1,6 @@
-require "./classes/Game.rb";
-
+require "./classes/game.rb";
+require "./classes/players.rb";
+require "./classes/questions.rb";
 
 
 puts "Loading Game ..."
